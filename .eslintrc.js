@@ -1,14 +1,15 @@
 module.exports = {
   env: {
     es6: true,
-    node: true
+    'jest/globals': true,
+    node: true,
   },
   extends: ['eslint:recommended', 'airbnb-base'],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: ['import'],
+  plugins: ['import', 'jest'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'import/no-cycle': 'off',
