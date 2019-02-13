@@ -1,0 +1,21 @@
+{
+  "name": "rbac",
+  "version": "0.0.0",
+  "description": "A Role-Based Access Control system that doesn't assume anything",
+  "main": "index.js",
+  "author": "Greg Holguin <simulatedgreg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.4"
+  },
+  "devDependencies": {
+    "dumper.js": "^1.3.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.10"
+  }
+}
